@@ -1,0 +1,26 @@
+1. What's the difference between GET and POST
+2. void elements : any element that can not, by definition have any content between
+    the start and end tags
+    area, base, br, col, command, embed, hr, img, input,
+    keygen, link, meta, param, source, track, wbr
+3. What are some new features in HTML5 forms?
+update and delete that go along with GET and POST
+
+4. What is a polyfill?
+    used to describe some browser specific code that helps you
+    get some missing functionality which is present in other browsers.
+
+5. What is a shiv in HTML5
+
+A polyfill is different from a shiv because, assuming your code is correctly written, even if you
+remove the polyfill script your code should still work just fine. However, if you remove a shiv,
+then your code will not work correctly (at least in older versions of IE) because of the issues
+with styling elements that are not recognized by earlier versions of IE.
+
+
+5. CSS Box Model
+All HTML elements can be considered as boxes. In CSS, the term "box model" is used
+when talking about design and layout.
+content->padding->border->margin
+Note, width and height is only about the content
+

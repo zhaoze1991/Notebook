@@ -1,0 +1,55 @@
+1. When is JS used outside of the browser
+js is commonly known by programmers as a language executed by browsers
+to validate form and extra functionality to the webpages.
+Node.js is a combination of a runtime environment and a library that uses server
+side JS to build web based applications. Node.js use the V8 virtual-machine.
+
+
+2. What is a ECMAScript?
+
+1. How to find HTML elements
+Finding HTML elements by id
+Finding HTML elements by tag name
+Finding HTML elements by class name
+Finding HTML elements by CSS selectors
+Finding HTML elements by HTML object collections
+
+document.getElementById()   Find an element by element id
+document.getElementsByTagName() Find elements by tag name
+document.getElementsByClassName()   Find elements by class name
+
+Change HTML Elements
+
+Method  Description
+element.innerHTML=  Change the inner HTML of an element
+element.attribute=  Change the attribute of an HTML element
+element.setAttribute(attribute,value)   Change the attribute of an HTML element
+element.style.property= Change the style of an HTML element
+
+Method  Description
+document.getElementById(id).onclick=function(){code}    Adding event handler code to an onclick event
+
+
+Examples of HTML events:
+
+When a user clicks the mouse
+When a web page has loaded
+When an image has been loaded
+When the mouse moves over an element
+When an input field is changed
+When an HTML form is submitted
+When a user strokes a key
+
+
+3. How to print content of an object?
+1) For/in loop
+2) console.log
+3) JSON.stringify
+4) toSource() (only works in FireFox)
+
+
+4. Minification : reduce the size of the js, removing all the unnecessary characters
+    in js
+5.obfuscation : make other people cannot understand the js content, but the browser
+    still need to know about that.
+6. Wrapper Object
