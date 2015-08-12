@@ -1,0 +1,3 @@
+when it comes to inheritance, JS only has one construct: objects. Each object
+has an internal link to another object called its prototype. That prototype object
+has a prototype of its own,

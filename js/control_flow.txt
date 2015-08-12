@@ -1,0 +1,9 @@
+Falsy value, the following values will evaluate to false:
+false
+undefined
+null
+0
+NaN
+the empty String("")
+
+Exception handling statements

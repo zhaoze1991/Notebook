@@ -53,3 +53,54 @@ When a user strokes a key
 5.obfuscation : make other people cannot understand the js content, but the browser
     still need to know about that.
 6. Wrapper Object
+
+7. Comparison operator
+The == operator will compare for equality after doing any necessary type conversions. The === operator will not do the conversion, so if two values are not the same type === will simply return false. It's this case where === will be faster, and may return a different result than ==. In all other cases performance will be the same.
+
+8. Explain event delegation
+event delegation allows you to avoid adding event listeners to specific nodes(many children node), instead, the event listener is added to one parent
+
+9. Explain this keyword
+function's this keyword behaves different in JS compared to other languages.
+in most case, the value of the this is determined by how a function is called.
+
+10.
+undefined means a variable has been declared but has not yet been assigned a value
+
+null is an assignment value. It can be assigned to a variable as a representation of no value
+
+11 Immediately-invoked function expression IIFE
+An IIFE is a JS design pattern which produces a lexical scope using JS's function scoping
+(function() {//code
+}())
+
+
+12 Explain AJAX in detail
+AJAX stands for Asynchronous JavaScript and XML
+AJAX allows web pages to update asynchronously by exchanging small amount of data
+with the server, so it's possible to update parts of a web page, without reloading
+the whole page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+What is JavaScript
+JS is a cross-platform, object-oriented scripting language.
+Client-side JS extends the core language by supplying objects to control a
+browser and it's DOM(document object model)
+Server-side JS extends the core language by supplying objects relevant to running
+JS on a server
+
+JS vs. Java
+JS doesn't have Java's static typing and strong type checking.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
+
+JavaScript and the ECMAScript specification
+The standardized version of JS, called ECMAScript,

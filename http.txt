@@ -24,3 +24,78 @@ when talking about design and layout.
 content->padding->border->margin
 Note, width and height is only about the content
 
+6. What is iFrame
+An inline frame is used to embed another document within the current HTML
+document
+
+7. local storage vs session storage
+the data stored in local storage persists until
+explicitly deleted. Changes made are saved and available for all current and future visits to the site.
+local storage is more secure
+For session storage, changes are only available
+per window, once the window is closed, the storage is deleted.
+
+stored in string
+
+8. HTTP Long Polling
+server has no way to send data to the client with out the initial request, to overcome this,
+they invent long polling
+
+9. WebSockets
+WebSockets is an advanced technology that makes it possible to open interactive communication
+session between the user's browser and a server.
+you can send data from browser to server by calling a send() method, and receive data from server to browser by an onmessage() event handler
+
+10. DOCTYPE
+The <!DOCTYPE> declaration must be the very first thing in your HTML document, before the <html> tag.
+
+The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.
+
+if missing that, it will goes to quirks mode
+
+
+10 Cookie
+An HTTP cookie (also called web cookie, Internet cookie, browser cookie or simply
+cookie, the latter which is not to be confused with the literal definition), is a
+small piece of data sent from a website and stored in a user's web browser while
+the user is browsing that website. Every time the user loads the website, the
+browser sends the cookie back to the server to notify the website of the user's
+previous activity.
+
+11 CSRF Cross-site request forgery
+
+
+
+12. Difference between HTML and XHTML
+HTML5 has two parsing modes or syntaxes: HTML and XML. The difference depends on
+whether the document is served with a Content-type: text/html header or a
+Content-type: application/xml+xhtml header.
+
+13. Quirks Mode and Standard Mode
+There are now three modes used by the layout engines in web browsers: quirks mode,
+ almost standards mode, and full standards mode.
+ In quirks mode, layout emulates nonstandard behavior in Navigator 4 and
+ Internet Explorer 5 for Windows that is required not to break existing content on
+  the Web. In full standards mode, the behavior is (hopefully) the behavior
+   described by the HTML and CSS specifications. In almost standards mode,
+   there are only a very small number of quirks implemented.
+
+14 Are there any problems with serving pages as application/xhtml+xml
+
+
+15 How do you serve a page with content in multiple languages?
+
+1.You must have translated/localized pages on the server for each language you intend to support.
+2.Your server must recognize the browser’s language request.
+3.You must carefully name the files for the localized pages, so the server has a systematic way of locating them.
+4.You need a method for serving a generic page when you don’t have the requested language.
+
+16 What kind of things must you be wary of when design or developing for multilingual sites
+http://www.quora.com/What-kind-of-things-one-should-be-wary-of-when-designing-or-developing-for-multilingual-sites
+
+17 HTML data-* Attributes
+The data-* attributes is used to store custom data private to the page or application.
+The data-* attributes gives us the ability to embed custom data attributes on all HTML elements.
+
+
+

@@ -1,0 +1,59 @@
+JavaScript is case-sensitive and uses the Unicode character set.
+JavaScript has rules for ASI(automatic insertion of semicolons).
+
+Declarations
+var, declares a variable
+let, declares a block scope local variable
+const, declares a read-only named constant
+
+var x = 42, used to declare both local and global variables.
+x = 42, this always declares a global variable, and cannot be changed at the local level
+let y = 13, this syntax can be used to declare a block scope local variable
+
+
+Evaluating variables.
+A variable declared using the var or let statement with no initial value specified
+has the value undefined.
+An attempt to access an undeclared variable will result in RederenceError exception
+
+the undefined value converts to NaN when used in numeric context
+var a;
+a + 2 = NaN
+
+When you evaluate a null variable, the null value behaves as 0 in numeric context
+and as false in boolean contexts
+
+Variable hoisting
+Another unusual thing about variables in JS is that you can refer to a variable declared later, without getting an exception.
+(function() {
+    console.log(x); // undefined
+    var x = 10;
+})
+
+Global variables
+Global variables are in fact properties of the global object.
+In web pages, the global object is window, so you can set and access
+global variables using window.variable syntax.
+
+
+Data Structures and types
+six data types are primitives:
+Boolean, null, undefined, Number,String, Symbol(instances are unique and immutable)
+
+and Object
+
+you can think objects as named containers for values
+
+
+Data type conversion
+JS is dynamically typed language, that means you don't have to specify the data type of a variable when you declare it, and data types are converted automatically as needed during script execution.
+
+"37" - 7 //30
+"37" + 7 // "377"
+
+
+Literals
+You can use literals to represent values in JS,
+
+var fish = ["Lion", , "Angel"] // "Lion", undefined, "Angel"
+
