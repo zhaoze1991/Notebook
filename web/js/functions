@@ -1,0 +1,16 @@
+function foo(argument) {
+    ....
+}
+var factorial = function fac(n) {
+    ...
+}
+primitive parameters are passed to function by value;
+if you pass an object as a parameter, it's kind of pass-by-reference
+
+
+function scope
+
+Name conflicts
+Inner most variable has the most priority
+
+Closures
